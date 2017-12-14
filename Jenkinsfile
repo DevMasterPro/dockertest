@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-             sh 'git --version'
+             sh 'ls -la'
             }
         }
     }
