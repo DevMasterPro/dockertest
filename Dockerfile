@@ -1,3 +1,3 @@
 FROM ubuntu
 RUN su - root
-RUN sudo apt-get install git
+RUN apt-get install git
