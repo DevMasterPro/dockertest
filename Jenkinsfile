@@ -7,9 +7,12 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-             sh 'ls -la'
+              sh 'node --version'
+                sh 'svn --version'
             }
         }
     }
 }
  
+
+
