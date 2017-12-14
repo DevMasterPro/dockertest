@@ -15,7 +15,7 @@ pipeline {
             steps {
                 sh 'node --version'
                 sh 'svn --version'
-                sh 'apk install git'
+                sh 'apk add git'
             }
         }
         stage('Test') {
