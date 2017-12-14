@@ -1,3 +1,3 @@
-FROM node:7-alpine
+FROM ubuntu
 
-RUN apk add -U subversion
+RUN apt-get instsll git -y
