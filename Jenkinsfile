@@ -1,7 +1,8 @@
 pipeline {
-    agent { label "testa" }
+    agent { label "testa" 
+          dockerfile true }
     stages {
-        agent { dockerfile true }
+        agent {
         stage('Test') {
             steps {
              sh 'git --version'
