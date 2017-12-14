@@ -1,3 +1,3 @@
-FROM ubuntu
+FROM ubuntu:zesty
 RUN su - root
 
