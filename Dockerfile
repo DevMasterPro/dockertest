@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN pip install Flask==0.11.1 redis==2.10.5
+RUN '/bin/bash -c pip install Flask==0.11.1 redis==2.10.5'
